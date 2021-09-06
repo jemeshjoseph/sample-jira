@@ -1,0 +1,31 @@
+{
+  "data": {
+    "tasks": [
+      {
+        "name": "This is task 1.",
+        "id": 1000,
+        "status": "todo"
+      },
+      {
+        "name": "This is task 2.",
+        "id": 1001,
+        "status": "inprogress"
+      },
+      {
+        "name": "This is task 3.",
+        "id": 1002,
+        "status": "done"
+      },
+      {
+        "name": "This is task 4.",
+        "id": 1003,
+        "status": "qa"
+      },
+      {
+        "name": "This is task 5.",
+        "id": 1004,
+        "status": "todo"
+      }
+    ]
+  }
+}
