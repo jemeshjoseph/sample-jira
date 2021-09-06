@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: calc(80vh);
+  align-items: stretch;
+}
+
+.task-section {
+  width: 25%;
+  border: 1px solid black;
+  margin: 10px;
+  display: block;
+}
+
+.hold {
+  border: 4px solid green !important;
+}
+
+.invisible {
+  display: none;
+}
+
+.task-section h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.task {
+  height: 70px;
+  margin: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.hovered {
+  border-style: dotted;
+  background-color: aliceblue;
+}
